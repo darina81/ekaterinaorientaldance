@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKATERINA ORIENTAL DANCE - Пловдив</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            background-image: url('./вашето-изображение.jpeg'); /* Заменете със името на вашата снимка */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+        .header::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .header-content {
+            position: relative;
+            z-index: 1;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        .btn {
+            background-color: #ff4081;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>EKATERINA ORIENTAL DANCE</h1>
+            <p>Присъединете се към новите ни танцови групи в Пловдив</p>
+            <a href="https://www.facebook.com/EkaterinaOrientalDance" class="btn">Запишете се сега</a>
+        </div>
+    </div>
+    <div class="container">
+        <h2>За инструктора</h2>
+        <p>Екатерина Таскова посетила много фестивали и учила се от известни танцьори</p>
+        
+        <h2>График и локации</h2>
+        <p>Понеделник - 18.00ч<br>Сряда - 18.00ч<br>Петък - 18.00ч</p>
+        <p>Локация: бул. Македония 2, етаж 2</p>
+        
+        <h2>Отзиви</h2>
+        <p>Цитати и ревюта от предишни участници...</p>
+    </div>
+    <div class="footer">
+        <p>Контактна информация | <a href="https://www.facebook.com/EkaterinaOrientalDance" style="color: white;">Facebook</a></p>
+    </div>
+</body>
+</html>
